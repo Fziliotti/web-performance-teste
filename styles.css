@@ -6,12 +6,16 @@
 
 body {
     background-color: rgb(210, 210, 210);
+    font-family: 'Average Sans', sans-serif;
 }
 
 main {
-    width: 900px;
+    width: 820px;
     margin: 0 auto;
     margin-top: 60px;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: justify;
 }
 
 ul {
@@ -25,6 +29,19 @@ ul > li > a {
 }
 
 img {
+    margin: 12px 0;
     max-width: 100%;
     height: auto;
+}
+
+header {
+    background-color: rgb(189, 189, 189);
+    padding: 16px 0;
+
+}
+
+header h1 {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 2px;
 }

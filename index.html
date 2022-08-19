@@ -1,24 +1,40 @@
 <!doctype html>
-<html>
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <title>Desempenho na Web - TCC</title>
+  <meta name="description" content="Desempenho na Web - análise TCC">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
     <main>
         <h1 class="text-3xl font-bold underline">
-          Web Performance - TQI
+          Desempenho na Web - Experimentos
         </h1>
 
-
         <ul>
+            <h3>Páginas estáticas</h3>
             <li><a href="./teste-1.html">Imagens em alta resolução</a></li>
             <li><a href="./teste-2.html">Imagens otimizadas</a></li>
             <li><a href="./teste-3.html">Técnica Lazy-Loading</a></li>
             <li><a href="./teste-4.html">Reduz Layout Shifting (CLS)</a></li>
-            <li><a href="./teste-5.html">Todas as técnicas + tamanho ideal</a></li>
+            <li><a href="./teste-5.html">Redução no tamanho das imagens e minificação</a></li>
+        </ul>
+
+        <ul>
+          <h3>Renderização no lado do cliente</h3>
+          <li><a href="./teste-csr.html">Simulando busca por conteúdo</a></li>
+        </ul>
+
+        <ul>
+          <h3>Renderização no lado do servidor</h3>
+          <li>Seria basicamente a página estática com TTFB maior</li>
         </ul>
 
     </main>
